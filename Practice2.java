@@ -8,6 +8,6 @@ public class Practice2 {
         System.out.println("Enter index of substring");
         int index = scanner.nextInt();
         System.out.println("Substring is");
-
+        System.out.println(inputString.substring(index));
     }
 }
